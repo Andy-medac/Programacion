@@ -7,76 +7,80 @@ public class Ejercicio18 {
 
     public static void main(String[] args) {
         
-        int palo = (int) (Math.random()*4+1);
-        int cartasPalo = (int) (Math.random()*13+1);
+        int numPalo = (int) (Math.random()*4+1);
+        
+        String palo = "";
 
-        switch (palo) {
+        switch (numPalo) {
             case 1:
-                System.out.println ("picas") ;
+                palo = ("picas") ;
                 break;
         
             case 2: 
-                System.out.println ("corazones") ;
+                palo = ("corazones") ;
                 break;
 
             case 3: 
-                System.out.println ("diamantes") ;
+                palo = ("diamantes") ;
                break;
 
             case 4: 
-                System.out.println ("tréboles") ;
+                palo = ("tréboles") ;
 
             default:
                 break;
         }
+        
+        int numCartasPalo = (int) (Math.random()*13+1);
+        String cartasPalo = "";
 
-        switch (cartasPalo) {
+        switch (numCartasPalo) {
             case 1:
-               System.out.println("A");
+               cartasPalo = ("A");
                 break;
         
             case 2:
-                System.out.println("2");
+                cartasPalo = ("2");
                 break;
 
             case 3:
-                System.out.println("3");
+                cartasPalo = ("3");
                 break;
 
             case 4:
-                System.out.println("4");
+                cartasPalo = ("4");
                 break;
 
             case 5:
-                System.out.println("5");
+                cartasPalo = ("5");
                 break;
 
             case 6:
-                System.out.println("6");
+                cartasPalo = ("6");
                 break;
 
             case 7:
-                System.out.println("7");
+                cartasPalo = ("7");
                 break;
 
             case 8:
-                System.out.println("8");
+                cartasPalo = ("8");
                 break;
 
             case 9:
-                System.out.println("9");
+                cartasPalo = ("9");
                 break;
 
             case 10:
-                System.out.println("J");
+                cartasPalo = ("J");
                 break;
 
             case 11:
-                System.out.println("Q");
+                cartasPalo = ("Q");
                 break;
 
             case 12:
-                System.out.println("K");
+                cartasPalo = ("K");
                 break;
 
             default:
@@ -84,6 +88,6 @@ public class Ejercicio18 {
         }
 
 
-        System.out.println("La carta que ha salido es el " + cartasPalo + " de " + palo);
+        System.out.println("La carta que ha salido es el " + cartasPalo + " de " + palo + ".");
     }
 }
