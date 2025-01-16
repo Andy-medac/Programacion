@@ -27,7 +27,7 @@ public class Ejercicio4 {
         
         Persona persona1 = new Persona (nombre, edad, genero, nacionalidad);
         
-        
-        
+        persona1.presentacionIdioma();
+                
     }
 }

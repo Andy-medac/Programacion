@@ -14,9 +14,8 @@ public class Coche {
     private String modelo;
     private String color;
     private int km;
-    
-    //Método para poder crear los coches
-    //CONSTRUCTOR
+   
+    //CONSTRUCTOR   (Método para poder crear los coches, puede haber más de uno con sobrecarga)
     public Coche (String matri, String marc, String model, String col, int kmo) {
         
         //Relacionamos las variables con los parámetros que va a recibir
