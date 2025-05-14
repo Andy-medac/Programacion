@@ -46,7 +46,7 @@ public class Seccion {
         double stockTotal = 0;
         
         for (int i = 0; i < contador; i++) {
-            stockTotal += productos[i].getPrecio();
+            stockTotal += (productos[i].getPrecio()*productos[i].getStock());
         }
         return stockTotal;
     }
