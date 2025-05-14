@@ -1,0 +1,31 @@
+## 1DAM_Programacion_3T - Bloque 2: Flujos y ficheros
+
+Este repositorio contiene los **contenidos, teoría y ejercicios** del bloque 2 del 3er trimestre de la asignatura de **Programación**.
+
+El bloque incluye:
+- Un resumen teórico (`Teoria.md`)
+- Una carpeta para cada ejercicio con el enunciado del mismo.
+- Deberás subir tus soluciones a la carpeta correspondiente de cada ejercicio según las indicaciones que encontrarás aquí.
+
+**📘 Contenidos Bloque 2 – Flujos y Ficheros**
+   - Lectura y escritura de ficheros de texto (tema 13)
+   - Gestión de ficheros binarios y estructuras jerárquicas anidadas (tema 14)
+
+**📌 Instrucciones para el alumno:**
+
+- Cuando aceptes la invitación, se clonará automáticamente este repositorio en tu cuenta de Github.
+- Deberás crear una copia local del repositorio con Github Desktop.
+- Podrás modificar el documento de teoría si deseas añadir tus propios apuntes.
+- Conforme vayamos desarrollando los ejercicios en clase, deberás ir haciendo commit para guardar cambios.
+- Antes de irte a casa cada día, asegúrate de hacer un push para que tus cambios se suban a la nube.
+- Al finalizar el bloque, cada carpeta de cada ejercicio debería contener el enunciado y tus soluciones, algo como:
+   - `/Bloque2_FFlujosyFicheros/Ejercicio1/`
+     - `enunciado.md` (subido por el profesor)
+     - `Main.java`(subido por el alumno)
+     - `Persona.java` (subido por el alumno)
+     - etc.
+
+**📌 IMPORTANTE:**
+El profesor puede acceder a tu repositorio y revisar si los ejercicios se han realizado, las fechas y el tiempo de desarrollo de cada uno, etc. Por lo tanto, presta atención a cómo vas desarrollando tu repositorio, puesto que será relevante para tu evaluación.
+
+¡Mucho ánimo con este bloque! 💻

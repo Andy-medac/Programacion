@@ -1,0 +1,3 @@
+Ratón,Informática,15.99,100
+Teclado,Informática,29.95,80
+Camiseta,Ropa,12.50,200

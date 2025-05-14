@@ -1,0 +1,14 @@
+﻿<alumnos>
+    <alumno>
+        <nombre>Ana</nombre>
+        <apellidos>Arias Molina</apellidos>
+        <nota>8.5</nota>
+        <dni>23472834J</dni>
+    </alumno>
+    <alumno>
+        <nombre>Carlos</nombre>
+        <apellidos>López Matrínez</apellidos>
+        <nota>6.2</nota>
+        <dni>29746423H</dni>
+    </alumno>
+</alumnos>
